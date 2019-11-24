@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		917F88C02389656400C70663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F88BF2389656400C70663 /* AppDelegate.swift */; };
 		917F88C22389656400C70663 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 917F88C12389656400C70663 /* art.scnassets */; };
-		917F88C42389656400C70663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F88C32389656400C70663 /* ViewController.swift */; };
+		917F88C42389656400C70663 /* PlanetViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F88C32389656400C70663 /* PlanetViewerVC.swift */; };
 		917F88C72389656400C70663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917F88C52389656400C70663 /* Main.storyboard */; };
 		917F88C92389656600C70663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917F88C82389656600C70663 /* Assets.xcassets */; };
 		917F88CC2389656600C70663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917F88CA2389656600C70663 /* LaunchScreen.storyboard */; };
+		917F88D623896A8C00C70663 /* PlanetSelecterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F88D523896A8C00C70663 /* PlanetSelecterVC.swift */; };
+		917F88D82389701200C70663 /* PlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F88D72389701200C70663 /* PlanetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		917F88BC2389656400C70663 /* IntergalaticFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntergalaticFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		917F88BF2389656400C70663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		917F88C12389656400C70663 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		917F88C32389656400C70663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		917F88C32389656400C70663 /* PlanetViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewerVC.swift; sourceTree = "<group>"; };
 		917F88C62389656400C70663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		917F88C82389656600C70663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		917F88CB2389656600C70663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		917F88CD2389656600C70663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917F88D523896A8C00C70663 /* PlanetSelecterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSelecterVC.swift; sourceTree = "<group>"; };
+		917F88D72389701200C70663 /* PlanetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				917F88BF2389656400C70663 /* AppDelegate.swift */,
-				917F88C12389656400C70663 /* art.scnassets */,
-				917F88C32389656400C70663 /* ViewController.swift */,
+				917F88D523896A8C00C70663 /* PlanetSelecterVC.swift */,
+				917F88D72389701200C70663 /* PlanetCell.swift */,
+				917F88C32389656400C70663 /* PlanetViewerVC.swift */,
 				917F88C52389656400C70663 /* Main.storyboard */,
+				917F88C12389656400C70663 /* art.scnassets */,
 				917F88C82389656600C70663 /* Assets.xcassets */,
 				917F88CA2389656600C70663 /* LaunchScreen.storyboard */,
 				917F88CD2389656600C70663 /* Info.plist */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				917F88C42389656400C70663 /* ViewController.swift in Sources */,
+				917F88C42389656400C70663 /* PlanetViewerVC.swift in Sources */,
+				917F88D623896A8C00C70663 /* PlanetSelecterVC.swift in Sources */,
 				917F88C02389656400C70663 /* AppDelegate.swift in Sources */,
+				917F88D82389701200C70663 /* PlanetCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
